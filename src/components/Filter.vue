@@ -1,5 +1,7 @@
 <template>
-  <div class="flex md:gap-6 gap-3 flex-col items-center justify-end -mb-12">
+  <div
+    class="flex md:gap-6 gap-3 flex-col md:flex-row items-center justify-end -mb-12"
+  >
     <p class="text-red-400">
       {{ jobs.length }} {{ currFilter + (jobs.length > 1 ? " Jobs" : " Job") }}
     </p>
